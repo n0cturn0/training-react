@@ -3,6 +3,7 @@ import './App.css';
 import Heloword from './components/HelloWord';
 import SayMyName from './components/SayMyName';
 import Pessoa from './components/Pessoa';
+import Frase from './components/Frase';
 
 function App() {
   const name = 'Luiz Augusto ';
@@ -20,7 +21,7 @@ function App() {
      Hello Word!
      <p>Soma: {sum(90,7654)}</p>
      <img src={url} />
-
+     <Frase />
      {/* Call Component */}
      {/* <Heloword /> */}
      <SayMyName nome="Luiz Augusto" />
@@ -33,6 +34,7 @@ function App() {
      profissao="Programador"
      foto="https://via.placeholder.com/150"
      />
+  
 
     </div>
   );
