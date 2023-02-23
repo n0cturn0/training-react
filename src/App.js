@@ -1,5 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
+import Heloword from './components/HelloWord';
 
 function App() {
   const name = 'Luiz Augusto ';
@@ -19,6 +20,9 @@ function App() {
      <p>{10/5}</p>
      <p>Soma: {sum(90,7654)}</p>
      <img src={url} />
+
+     {/* Call Component */}
+     <Heloword />
     </div>
   );
 }
