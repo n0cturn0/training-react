@@ -38,8 +38,8 @@ function App() {
      foto="https://via.placeholder.com/150"
      />
     <List />
-    <Evento numero="1" />
-    <Evento numero="100" />
+    <Evento  />
+    
     <Form />
 
     </div>
