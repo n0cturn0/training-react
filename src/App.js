@@ -8,8 +8,10 @@ import List from './components/List';
 import Evento from './components/Evento';
 import Form from './components/Form';
 import Condicional from './components/Condicional';
+import OutraLista from './components/OutraLista';
 
 function App() {
+  const meusItens = ['React', 'Vue', 'Angular'];
   const name = 'Luiz Augusto ';
   const email = 'n0cturn0.debian@gmail.com';
   const newname = name.toUpperCase();
@@ -43,6 +45,8 @@ function App() {
     
     <Form />
     <Condicional />
+    <OutraLista itens={meusItens} />
+    <OutraLista itens={[]} />
     </div>
   );
 }
